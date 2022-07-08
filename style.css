@@ -1,0 +1,26 @@
+.navbar{
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+
+nav ul{
+	display: inline-block;
+	list-style-type: none;
+}
+
+nav ul li{
+	font-size: 25px;
+	display: inline-block;
+	margin-right: 25px;
+	padding-top: 0px;
+	transition: background 0.2s;
+}
+
+nav ul li:hover{
+	background : #888787;
+}
